@@ -140,7 +140,7 @@ hr {
 }
 
 .h5,h5 {
-    font-size: 1.4rem
+    font-size: 1rem
 }
 
 .h6,h6 {
@@ -3177,8 +3177,8 @@ textarea.form-control-lg {
     --bs-btn-color: #fff;
     --bs-btn-bg: #377dff;
     --bs-btn-border-color: #377dff;
-    --bs-btn-hover-color: #fff;
-    --bs-btn-hover-bg: #3ed79a;
+    --bs-btn-hover-color: #374151;
+    --bs-btn-hover-bg: #c4f4c4;
     --bs-btn-hover-border-color: #a2d1f1;
     --bs-btn-focus-shadow-rgb: 85,145,255;
     --bs-btn-active-color: #fff;
@@ -3312,7 +3312,7 @@ textarea.form-control-lg {
 .btn-outline-primary {
     --bs-btn-color: #377dff;
     --bs-btn-border-color: #377dff;
-    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-color: #374151;
     --bs-btn-hover-bg: #377dff;
     --bs-btn-hover-border-color: #377dff;
     --bs-btn-focus-shadow-rgb: 55,125,255;
@@ -18513,7 +18513,7 @@ input[type=number] {
 }
 
 .btn-check:focus+.btn-primary,.btn-primary:focus,.btn-primary:hover {
-    box-shadow: 0 4px 11px rgb(62,215,154,1)
+    box-shadow: 0 4px 11px rgb(196,244,196,1)
 }
 
 .btn-check:focus+.btn-secondary,.btn-secondary:focus,.btn-secondary:hover {
