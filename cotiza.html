@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+  <!-- Required Meta Tags Always Come First -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Cotiza en 1 minuto - Legalbox</title>
+  <meta name="description" content="¿No te pagaron el servicio o producto que vendiste? Cobramos judicialmente y publicamos en Dicom. Envíanos tus facturas y nos encargamos del resto.">
+  <link rel="shortcut icon" href="./assets/img/brand/legalbox-favicon.svg">
+  <link rel="stylesheet" href="./assets/css/theme.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/vendor.css">
+  <link rel="stylesheet" href="../node_modules/nouislider/dist/nouislider.min.css">
+
+</head>
+
+<body>
+
+<header id="header" class="navbar navbar-expand-lg navbar-end navbar-absolute-top navbar-light navbar-show-hide" data-hs-header-options="{
+    &quot;fixMoment&quot;: 1000,
+    &quot;fixEffect&quot;: &quot;slide&quot;
+  }" hsheader="true">
+
+<div class="container">
+<nav class="js-mega-menu text-center navbar-nav-wrap hs-menu-initialized hs-menu-horizontal">
+<!-- Default Logo -->
+<a class="navbar-brand" href="./" aria-label="Legalbox">
+  <img class="navbar-brand-logo" src="./assets/img/brand/empresa-de-cobranza-legalbox-logo.svg" alt="Logo de Legalbox">
+</a>
+<!-- End Default Logo -->
+
+</nav>
+</div>
+</header>
+
+<main id="content" role="main">
+
+<div class="bg-light overflow-hidden">
+    <div class="container content-space-5 content-space-lg-5">
+        <div class="position-relative">
+        <div class="row gx-0 align-items-md-center">
+            <div class="col-md-12 mb-3 mb-md-0">
+                <iframe data-tally-src="https://tally.so/embed/mRbjQP?alignLeft=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="177" frameborder="0" marginheight="0" marginwidth="0" title="Cotizador"></iframe>
+<script>var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}</script>
+            </div>
+        </div>
+
+        </div>
+    </div>
+</div>
+
+</main>
+
+<footer class="bg-light">
+  <div class="container content-space-t-2 pb-lg-7">
+    <div class="w-md-85 text-lg-center mx-lg-auto">
+      <a class="d-inline-flex align-items-center mb-3" href="./" aria-label="Front">
+        <img class="brand" src="./assets/img/brand/empresa-de-cobranza-legalbox-logo.svg" alt="Logo">
+      </a>
+      <!-- End Logo -->
+  <p class="fs-6 mb-1">Cobranza efectiva.</p>
+  <p class="fs-6">© Legalbox. 2025. Todos los derechos reservados.</p>
+  <p class="fs-6 mb-1"></p>
+    </div>
+  </div>
+</footer>
+
+<script src="./assets/js/vendor.js"></script>
+
+<script>
+  (function() {
+    // INITIALIZATION OF MEGA MENU
+    // =======================================================
+    new HSMegaMenu('.js-mega-menu', {
+        desktop: {
+          position: 'left'
+        }
+      })
+  })()
+</script>
+
+<!-- JS Implementing Plugins -->
+<script src="../assets/vendor/hs-switch/dist/hs-switch-text.min.js"></script>
+<script src="../node_modules/nouislider/dist/nouislider.min.js"></script>
+
+<!-- JS Front -->
+<script src="../assets/js/hs.nouislider.js"></script>
+
+<!-- JS Plugins Init. -->
+<script>
+  (function() {
+    // INITIALIZATION OF SWITCH TEXT
+    // =======================================================
+    new HSSwitchText('.js-switch-text', {
+      afterChange() {
+        document.querySelector('.js-nouislider').noUiSlider.set([this.target[0].text])
+      }
+    })
+
+
+    // INITIALIZATION OF NOUISLIDER
+    // =======================================================
+    HSCore.components.HSNoUISlider.init(document.querySelector('.js-nouislider'))
+    const slider = HSCore.components.HSNoUISlider.getItem(0)
+
+    slider.on('change', function (val) {
+      const input = document.querySelector('.js-switch-text:checked'),
+        defData = JSON.parse(input.getAttribute('data-hs-switch-text-options'))
+
+      defData.target[0].text = val[0]
+      input.setAttribute('data-hs-switch-text-options', JSON.stringify(defData))
+    })
+  })()
+</script>
+
+</body>
+</html>
