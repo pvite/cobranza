@@ -17789,6 +17789,7 @@ input[type=number] {
 
 .avatar-centered {
     display: flex;
+    justify-content: center;
     margin-right: auto;
     margin-left: auto
 }
@@ -18307,6 +18308,7 @@ input[type=number] {
 .avatar.avatar-4x3 {
     width: 4.1666666667rem;
     height: auto;
+    vertical-align: middle;
     border-radius: 0
 }
 
