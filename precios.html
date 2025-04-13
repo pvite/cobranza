@@ -30,38 +30,71 @@
    
 <body>
 
-  <header id="header" class="navbar navbar-expand-lg navbar-end navbar-absolute-top navbar-light navbar-show-hide" data-hs-header-options="{
-    &quot;fixMoment&quot;: 1000,
-    &quot;fixEffect&quot;: &quot;slide&quot;
-  }" hsheader="true">
+  <header id="header" class="navbar navbar-expand-lg navbar-end navbar-light" hsheader="true">
+    <div class="container">
+      <nav class="js-mega-menu navbar-nav-wrap hs-menu-initialized hs-menu-horizontal">
+        <!-- Default Logo -->
+        <a class="navbar-brand" href="./" aria-label="Empresa de cobranza en Chile: Legalbox">
+          <img class="navbar-brand-logo" src="./assets/img/brand/empresa-de-cobranza-legalbox-logo.svg" alt="Empresa de cobranza en Chile: Legalbox">
+        </a>
+        <!-- End Default Logo -->
   
+        <!-- Secondary Content -->
+        <div class="navbar-nav-wrap-secondary-content">
+          <!-- Search -->
+          <div class="dropdown dropdown-course-search d-lg-none d-inline-block">
+            <a class="btn btn-ghost-secondary btn-sm btn-icon" href="#" id="navbarCourseSearchDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="bi-search"></i>
+            </a>
   
-  <div class="container">
-    <nav class="js-mega-menu navbar-nav-wrap hs-menu-initialized hs-menu-horizontal">
-      <!-- Default Logo -->
-      <a class="navbar-brand" href="./" aria-label="Empresa de cobranza en Chile: Legalbox">
-        <img class="navbar-brand-logo" src="./assets/img/brand/empresa-de-cobranza-legalbox-logo.svg" alt="Empresa de cobranza en Chile: Legalbox">
-      </a>
-      <!-- End Default Logo -->
+            <div class="dropdown-menu dropdown-card" aria-labelledby="navbarCourseSearchDropdown">
+              <!-- Card -->
+              <div class="card card-sm">
+                <div class="card-body">
+                  <form class="input-group input-group-merge">
+                    <input type="text" class="form-control" placeholder="What do you want to learn?" aria-label="What do you want to learn?">
+                    <div class="input-group-append input-group-text">
+                      <i class="bi-search"></i>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              <!-- End Card -->
+            </div>
+          </div>
+          <!-- End Search -->
   
-      <!-- Toggler -->
+          <div class="d-inline-block ml-auto">
+            <a class="btn btn-primary" type="button" href="./precios">
+              <span class="d-none d-lg-inline-block">Iniciar cobranza</span>
+                <i>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"></path>
+                  </svg>
+                </i>
+              </a>
+          </div>
+        </div>
+        <!-- End Secondary Content -->
+  
+        <!-- Toggler -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-default">
-        <i><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
-          <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"></path>
-        </svg></i>
-      </span>
-      <span class="navbar-toggler-toggled">
-        <i>
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
-            <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"></path>
-          </svg>
-        </i>
-      </span>
-      </button>
-      <!-- End Toggler -->
+        <span class="navbar-toggler-default">
+          <i><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"></path>
+          </svg></i>
+        </span>
+        <span class="navbar-toggler-toggled">
+          <i>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+              <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"></path>
+            </svg>
+          </i>
+        </span>
+        </button>
+        <!-- End Toggler -->
   
-      <!-- Collapse -->
+        <!-- Collapse -->
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <div class="navbar-absolute-top-scroller">
           <ul class="navbar-nav">
@@ -101,29 +134,27 @@
             <!-- End Pages -->
   
             <li class="nav-item">
+              <a class="nav-link" href="https://blog.legalbox.cl/">Artículos</a>
+            </li>
+  
+            <li class="nav-item">
               <a class="nav-link" href="./precios">Precios</a>
             </li>
   
-            <li class="nav-item ms-2">
-              <a class="btn btn-outline-primary btn-transition px-6" href="https://legalbox.app/login">Acceder
+            <li class="nav-item">
+              <a class="btn btn-ghost-primary me-3" href="https://legalbox.app/login" target="_blank">
+                Acceder <i class="bi-box-arrow-up-right ms-1"></i>
               </a>
             </li>
             
-            <li class="nav-item ms-2">
-              <a class="btn btn-primary btn-transition px-6" href="./precios">Iniciar cobranza <i>
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"></path>
-                </svg></i>
-              </a>
-            </li>
           </ul>
         </div>
       </div>
       <!-- End Collapse -->
-    </nav>
-  </div>
+      </nav>
+    </div>
   </header>
-  
+
 <main id="content" role="main">
 
   <!-- HERO PRECIOS -->
