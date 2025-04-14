@@ -5,6 +5,10 @@
         "destination": "https://blog.legalbox.cl/:slug*",
         "permanent": true
       }
-    ]
+    ],
+    "rewrites": [
+    { "source": "/(.*)", "destination": "/$1.html" }
+  ]
   }
+  
   
