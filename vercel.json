@@ -1,0 +1,10 @@
+{
+    "redirects": [
+      {
+        "source": "/blog/:slug*",
+        "destination": "https://blog.legalbox.cl/:slug*",
+        "permanent": true
+      }
+    ]
+  }
+  
