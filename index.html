@@ -28,10 +28,10 @@
 
   <script type="application/ld+json">
     {
-      "@context": "http://schema.org",
+      "@context": "https://schema.org",
       "@type": "Organization",
       "name": "Legalbox",
-      "legalName" : "Legalbox",
+      "legalName": "Legalbox",
       "description": "¿Tu cliente no te pagó? Delega en Legalbox los incobrables de tu negocio y olvídate de los malos ratos. Fácil, efectivo y por abogados.",
       "url": "https://legalbox.cl",
       "logo": "https://legalbox.cl/assets/img/brand/empresa-de-cobranza-legalbox-logo.svg",
@@ -46,28 +46,80 @@
         "postalCode": "7500646",
         "streetAddress": "Huerfanos 1055, Oficina 605, Santiago"
       },
-      "contactPoint" : 
-      [
-      {"@type" : "ContactPoint",
-      "telephone" : "+56987439874",
-      "contactType" : "Sales",
-      "contactOption" : "TollFree",
-      "areaServed" : "CL"
-      } , {
-        "@type" : "ContactPoint",
-        "telephone" : "+56987439874",
-        "contactType" : "Customer service",
-        "contactOption" : "TollFree",
-        "areaServed" : "CL"
-      }],
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "+56987439874",
+          "contactType": "Sales",
+          "contactOption": "TollFree",
+          "areaServed": "CL"
+        },
+        {
+          "@type": "ContactPoint",
+          "telephone": "+56987439874",
+          "contactType": "Customer service",
+          "contactOption": "TollFree",
+          "areaServed": "CL"
+        }
+      ],
       "sameAs": [
         "https://www.facebook.com/legalbox.cl/",
         "https://www.linkedin.com/company/legalbox-cl",
         "https://www.crunchbase.com/organization/legalbox"
       ],
-      "openingHours": "Mo,Tu,We,Th,Fr, 09:00-19:00"  
+      "openingHours": "Mo,Tu,We,Th,Fr 09:00-19:00"
     }
-  </script>
+    </script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "¿Qué es una empresa de cobranza?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Una empresa de cobranza se encarga de gestionar el cobro de deudas impagas por parte de clientes o terceros, actuando en representación de una empresa o acreedor."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Cómo puedo cobrar una factura impaga en Chile?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Para cobrar una factura impaga en Chile puedes recurrir a la cobranza extrajudicial, donde se contacta al deudor para buscar un acuerdo, se publican las facturas en Dicom y otros burós de crédito, o iniciar una cobranza judicial a través de tribunales."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Qué diferencia hay entre cobranza extrajudicial y judicial?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "La cobranza extrajudicial consiste en forzar el pago sin recurrir a tribunales, mientras que la judicial implica presentar una demanda para exigir el pago legalmente."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Puedo publicar a un deudor en DICOM?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sí, si el deudor tiene una deuda vencida y se han cumplido los requisitos legales, puedes reportarlo en boletines comerciales como DICOM, previo aviso."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Cuánto cuesta contratar una empresa de cobranza?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "El costo varía según la empresa. En Legalbox recuperas con la mejor comisión del país. Fácil, efectivo y por abogados."
+            }
+          }
+        ]
+      }
+      </script>
+      
 
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
