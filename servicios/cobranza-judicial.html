@@ -15,47 +15,53 @@
   <link rel="stylesheet" href="../assets/css/vendor.css">
 
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    "name": "Cobranza Judicial",
-    "serviceType": "Cobranza Judicial",
-    "provider": {
-      "@type": "LegalService",
-      "name": "Legalbox"
-    },
-    "areaServed": "CL",
-    "description": "El servicio de cobranza judicial o juicio ejecutivo es una demanda que consiste en exigir y forzar el pago de títulos ejecutivos impagos (facturas a crédito, cheques protestados, pagarés impagos, entre otros.) a través de un procedimiento judicial. Si el deudor no paga, la ley permite realizar el embargo de bienes del deudor.",
-    "url": "https://legalbox.cl/servicios/cobranza-judicial"
-  }
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Cobranza Judicial",
+      "serviceType": "Cobranza Judicial de Facturas Impagas",
+      "provider": {
+        "@type": "LegalService",
+        "name": "Legalbox",
+        "url": "https://legalbox.cl"
+      },
+      "areaServed": {
+        "@type": "Country",
+        "name": "Chile"
+      },
+      "description": "Demandamos judicialmente a tus deudores para recuperar facturas impagas. Representación legal por abogados especialistas y seguimiento online del proceso. Sin anticipo, solo pagas si recuperas.",
+      "termsOfService": "https://legalbox.cl/legal/terms",
+      "url": "https://legalbox.cl/servicios/cobranza-judicial"
+    }
   </script>
-
+  
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Inicio",
-        "item": "https://legalbox.cl"
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Servicios",
-        "item": "https://legalbox.cl/servicios"
-      },
-      {
-        "@type": "ListItem",
-        "position": 3,
-        "name": "Cobranza Judicial"
-      }
-    ]
-  }
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Inicio",
+          "item": "https://legalbox.cl/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Servicios",
+          "item": "https://legalbox.cl/servicios"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Cobranza Judicial",
+          "item": "https://legalbox.cl/servicios/cobranza-judicial"
+        }
+      ]
+    }
   </script>
-
+  
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -63,38 +69,101 @@
       "name": "Flavio Viterbo Crisosto",
       "jobTitle": "Director Legal",
       "worksFor": {
-        "@type": "Organization",
+        "@type": "LegalService",
         "name": "Legalbox",
         "url": "https://legalbox.cl"
       },
       "alumniOf": {
         "@type": "EducationalOrganization",
-        "name": "Pontificia Universidad Católica de Chile"
+        "name": "Pontificia Universidad Católica de Chile",
+        "sameAs": "https://www.uc.cl"
       },
-      "url": "https://legalbox.cl",
       "sameAs": [
         "https://www.linkedin.com/in/flavioviterboc/"
       ],
-      "description": "Abogado chileno especializado en cobranza judicial y prejudicial, con experiencia en representación legal y liderazgo en el área jurídica de Legalbox.",
-      "nationality": "CL",
-      "knowsAbout": [
-        "Cobranza judicial en Chile",
-        "Cobranza prejudicial",
-        "Derecho civil",
-        "Representación legal de empresas"
-      ],
-      "memberOf": {
-        "@type": "Organization",
-        "name": "Colegio de Abogados de Chile"
+      "description": "Abogado chileno especialista en cobranza judicial y extrajudicial, con más de 10 años de experiencia liderando procesos legales para empresas en todo Chile.",
+      "nationality": {
+        "@type": "Country",
+        "name": "Chile"
       }
     }
-    </script>
+  </script>
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "¿En qué consiste la Cobranza Judicial?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Es un juicio ejecutivo que busca recuperar deudas impagas a través de tribunales. Se presenta una demanda, y si el deudor no paga, el juez puede autorizar el embargo y remate de bienes para saldar la deuda."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuánto demora la Cobranza Judicial?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Un juicio de cobranza judicial suele tardar entre 3 y 6 meses, dependiendo del domicilio del deudor, sus defensas legales y los bienes embargables."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Qué requisitos se deben cumplir para iniciar una cobranza judicial?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Debes contar con un título ejecutivo válido (factura, pagaré o cheque) no mayor a 1 año desde su vencimiento. Además, se debe firmar un mandato para que un abogado inicie el proceso legal en tu representación."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Se debe contar con un abogado para iniciar una cobranza judicial?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sí. La ley chilena exige que todo juicio de cobranza sea iniciado por un abogado habilitado, quien gestionará cada etapa del proceso judicial."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Puede el deudor oponerse o defenderse de una cobranza judicial?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El deudor puede presentar defensas, pero debe hacerlo con abogado. Las opciones de defensa se limitan a la validez del título ejecutivo y a lo pactado en el contrato con el acreedor."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Cuáles son los gastos de una cobranza judicial?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Los principales gastos incluyen notificaciones ($150.000 aprox.), embargos, remates y certificados legales. Estos costos varían según el caso y los bienes involucrados."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Quién se hace responsable de los gastos de una cobranza judicial?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "El acreedor paga los gastos judiciales, que luego se suman a la deuda. Si el juicio tiene éxito, el deudor debe pagar la deuda, intereses y todos los costos del proceso."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "¿Quiénes son los receptores judiciales y cuál es su función?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Son ministros de fe que realizan diligencias como notificaciones y embargos. En Legalbox nos encargamos de coordinarlos y acompañarte durante todo el proceso de cobranza judicial."
+          }
+        }
+      ]
+    }
+  </script>
     
-
-
-  
-  
-
+    
+      
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
   new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -110,138 +179,138 @@
   <!-- End Google Tag Manager (noscript) -->
 <body>
 
-  <header id="header" class="navbar navbar-expand-lg navbar-end navbar-light" hsheader="true">
-    <div class="container">
-      <nav class="js-mega-menu navbar-nav-wrap hs-menu-initialized hs-menu-horizontal">
-        <!-- Default Logo -->
-        <a class="navbar-brand" href="../" aria-label="Empresa de cobranza en Chile: Legalbox">
-          <img class="navbar-brand-logo" src="../assets/img/brand/empresa-de-cobranza-legalbox-logo.svg" alt="Empresa de cobranza en Chile: Legalbox">
-        </a>
-        <!-- End Default Logo -->
-  
-        <!-- Secondary Content -->
-        <div class="navbar-nav-wrap-secondary-content">
-          <!-- Search -->
-          <div class="dropdown dropdown-course-search d-lg-none d-inline-block">
-            <a class="btn btn-ghost-secondary btn-sm btn-icon" href="#" id="navbarCourseSearchDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              <i class="bi-search"></i>
-            </a>
-  
-            <div class="dropdown-menu dropdown-card" aria-labelledby="navbarCourseSearchDropdown">
-              <!-- Card -->
-              <div class="card card-sm">
-                <div class="card-body">
-                  <form class="input-group input-group-merge">
-                    <input type="text" class="form-control" placeholder="What do you want to learn?" aria-label="What do you want to learn?">
-                    <div class="input-group-append input-group-text">
-                      <i class="bi-search"></i>
-                    </div>
-                  </form>
-                </div>
+<header id="header" class="navbar navbar-expand-lg navbar-end navbar-light" hsheader="true">
+  <div class="container">
+    <nav class="js-mega-menu navbar-nav-wrap hs-menu-initialized hs-menu-horizontal">
+      <!-- Default Logo -->
+      <a class="navbar-brand" href="../" aria-label="Empresa de cobranza en Chile: Legalbox">
+        <img class="navbar-brand-logo" src="../assets/img/brand/empresa-de-cobranza-legalbox-logo.svg" alt="Empresa de cobranza en Chile: Legalbox">
+      </a>
+      <!-- End Default Logo -->
+
+      <!-- Secondary Content -->
+      <div class="navbar-nav-wrap-secondary-content">
+        <!-- Search -->
+        <div class="dropdown dropdown-course-search d-lg-none d-inline-block">
+          <a class="btn btn-ghost-secondary btn-sm btn-icon" href="#" id="navbarCourseSearchDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="bi-search"></i>
+          </a>
+
+          <div class="dropdown-menu dropdown-card" aria-labelledby="navbarCourseSearchDropdown">
+            <!-- Card -->
+            <div class="card card-sm">
+              <div class="card-body">
+                <form class="input-group input-group-merge">
+                  <input type="text" class="form-control" placeholder="What do you want to learn?" aria-label="What do you want to learn?">
+                  <div class="input-group-append input-group-text">
+                    <i class="bi-search"></i>
+                  </div>
+                </form>
               </div>
-              <!-- End Card -->
             </div>
-          </div>
-          <!-- End Search -->
-  
-          <div class="d-inline-block ml-auto">
-            <a class="btn btn-primary" type="button" href="../precios">
-              <span class="d-none d-lg-inline-block">Iniciar cobranza</span>
-                <i>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"></path>
-                  </svg>
-                </i>
-              </a>
+            <!-- End Card -->
           </div>
         </div>
-        <!-- End Secondary Content -->
-  
-        <!-- Toggler -->
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-default">
-          <i><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"></path>
-          </svg></i>
-        </span>
-        <span class="navbar-toggler-toggled">
-          <i>
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
-              <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"></path>
-            </svg>
-          </i>
-        </span>
-        </button>
-        <!-- End Toggler -->
-  
-        <!-- Collapse -->
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <div class="navbar-absolute-top-scroller">
-          <ul class="navbar-nav">
-  
-            <!-- Account -->
-            <li class="hs-has-sub-menu nav-item">
-              <a id="accountMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle " href="#" role="button" aria-expanded="false">Cobrar</a>
-  
-              <!-- Mega Menu -->
-              <div class="hs-sub-menu dropdown-menu hs-sub-menu-desktop-lg animated fadeOut" aria-labelledby="accountMegaMenu" style="min-width: 14rem; animation-duration: 300ms; display: none;">
-  
-                <a class="dropdown-item " href="../cobranza-facturas">Facturas</a>
-                <a class="dropdown-item " href="../cobranza-pagares">Pagarés</a>
-                <a class="dropdown-item " href="../cobranza-cheques">Cheques</a>
-              </div>
-              <!-- End Mega Menu -->
-            </li>
-            <!-- End Account -->
-  
-  
-            <!-- Pages -->
-            <li class="hs-has-sub-menu nav-item">
-              <a id="pagesMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle " href="#" role="button" aria-expanded="false">Servicios legales</a>
-  
-              <!-- Mega Menu -->
-              <div class="hs-sub-menu dropdown-menu hs-sub-menu-desktop-lg animated fadeOut" aria-labelledby="pagesMegaMenu" style="min-width: 14rem; animation-duration: 300ms; display: none;">
-                <a class="dropdown-item " href="../servicios/cobranza-prejudicial">Cobranza prejudicial</a>
-                <a class="dropdown-item " href="../servicios/cobranza-judicial">Cobranza judicial</a>
-                <a class="dropdown-item " href="../servicios/juicio-civil-ordinario">Juicio civil ordinario</a>
-                <a class="dropdown-item " href="../servicios/liquidacion-forzosa-de-empresas">Liquidación de empresas</a>
-                <a class="dropdown-item " href="../servicios/verificacion-de-creditos">Verificación de créditos</a>
-                <a class="dropdown-item " href="../servicios/verificacion-de-creditos">Recuperar IVA</a>
-                <a class="dropdown-item " href="../servicios/certificado-incobrabilidad">Certificado incobrabilidad</a>
-              </div>
-              <!-- End Mega Menu -->
-            </li>
-            <!-- End Pages -->
-  
-            <li class="nav-item">
-              <a class="nav-link" href="https://blog.legalbox.cl/">Artículos</a>
-            </li>
-  
-            <li class="nav-item">
-              <a class="nav-link" href="../precios">Precios</a>
-            </li>
-  
-            <li class="nav-item">
-              <a class="btn btn-ghost-primary me-3" href="https://legalbox.app/login" target="_blank">
-                Acceder <i class="bi-box-arrow-up-right ms-1"></i>
-              </a>
-            </li>
-            
-          </ul>
+        <!-- End Search -->
+
+        <div class="d-inline-block ml-auto">
+          <a class="btn btn-primary" type="button" href="../precios">
+            <span class="d-none d-lg-inline-block">Iniciar cobranza</span>
+              <i>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"></path>
+                </svg>
+              </i>
+            </a>
         </div>
       </div>
-      <!-- End Collapse -->
-      </nav>
+      <!-- End Secondary Content -->
+
+      <!-- Toggler -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-default">
+        <i><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"></path>
+        </svg></i>
+      </span>
+      <span class="navbar-toggler-toggled">
+        <i>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+            <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z"></path>
+          </svg>
+        </i>
+      </span>
+      </button>
+      <!-- End Toggler -->
+
+      <!-- Collapse -->
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <div class="navbar-absolute-top-scroller">
+        <ul class="navbar-nav">
+
+          <!-- Account -->
+          <li class="hs-has-sub-menu nav-item">
+            <a id="accountMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle " href="#" role="button" aria-expanded="false">Cobrar</a>
+
+            <!-- Mega Menu -->
+            <div class="hs-sub-menu dropdown-menu hs-sub-menu-desktop-lg animated fadeOut" aria-labelledby="accountMegaMenu" style="min-width: 14rem; animation-duration: 300ms; display: none;">
+
+              <a class="dropdown-item " href="../cobranza-facturas">Facturas</a>
+              <a class="dropdown-item " href="../cobranza-pagares">Pagarés</a>
+              <a class="dropdown-item " href="../cobranza-cheques">Cheques</a>
+            </div>
+            <!-- End Mega Menu -->
+          </li>
+          <!-- End Account -->
+
+
+          <!-- Pages -->
+          <li class="hs-has-sub-menu nav-item">
+            <a id="pagesMegaMenu" class="hs-mega-menu-invoker nav-link dropdown-toggle " href="#" role="button" aria-expanded="false">Servicios legales</a>
+
+            <!-- Mega Menu -->
+            <div class="hs-sub-menu dropdown-menu hs-sub-menu-desktop-lg animated fadeOut" aria-labelledby="pagesMegaMenu" style="min-width: 14rem; animation-duration: 300ms; display: none;">
+              <a class="dropdown-item " href="../servicios/cobranza-prejudicial">Cobranza prejudicial</a>
+              <a class="dropdown-item " href="../servicios/cobranza-judicial">Cobranza judicial</a>
+              <a class="dropdown-item " href="../servicios/juicio-civil-ordinario">Juicio civil ordinario</a>
+              <a class="dropdown-item " href="../servicios/liquidacion-forzosa-de-empresas">Liquidación de empresas</a>
+              <a class="dropdown-item " href="../servicios/verificacion-de-creditos">Verificación de créditos</a>
+              <a class="dropdown-item " href="../servicios/verificacion-de-creditos">Recuperar IVA</a>
+              <a class="dropdown-item " href="../servicios/certificado-incobrabilidad">Certificado incobrabilidad</a>
+            </div>
+            <!-- End Mega Menu -->
+          </li>
+          <!-- End Pages -->
+
+          <li class="nav-item">
+            <a class="nav-link" href="https://blog.legalbox.cl/">Artículos</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="../precios">Precios</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="btn btn-ghost-primary me-3" href="https://legalbox.app/login" target="_blank">
+              Acceder <i class="bi-box-arrow-up-right ms-1"></i>
+            </a>
+          </li>
+          
+        </ul>
+      </div>
     </div>
-  </header>
+    <!-- End Collapse -->
+    </nav>
+  </div>
+</header>
 
 <main id="content" role="main">
 
-  <div class="gradient-y-gray">
-    <div class="container content-space-t-3 content-space-b-2">
+  <div class="bg-soft-primary">
+    <div class="container content-space-2">
       <div class="row">
         <div class="col-md-7 col-lg-8">
-          <small class="badge bg-success text-dark rounded-pill mb-3">Online</small>
+          <small class="badge bg-success text-dark rounded-pill mb-3">100% online</small>
           <h1>Cobranza judicial</h1>
           <p>¿Tu cliente no te pagó? Inicia una demanda online para forzar el pago. Puedes cobrar:</p>
           <div class="d-flex align-items-center flex-wrap mt-3 mb-5">
@@ -306,7 +375,6 @@
               <h2 class="h3 mb-4">¿Qué es y cómo funciona?</h2>
 
               <p>El servicio de cobranza judicial o juicio ejecutivo es una demanda que consiste en exigir y forzar el pago de títulos ejecutivos impagos (facturas a crédito, cheques protestados, pagarés impagos, entre otros.) a través de un procedimiento judicial. Si el deudor no paga, la ley permite realizar el embargo de bienes del deudor.</p>
-      
 
               <div class="pt-7 mt-7">
                 <h2 class="h3 mb-4">¿Qué documentos se puede cobrar?</h2>
@@ -431,7 +499,7 @@
                 <!-- End Step -->
               </div>
               
-              <div class="border-top pt-7 mt-7 content-space-b-2">
+              <div class="pt-7 mt-7">
                 
               <h3 class="h4">Recomendación</h3>
 
@@ -439,7 +507,83 @@
 
 
               </div>
-  
+
+              <div class="border-top pt-7 mt-7 content-space-b-2">
+                <section id="faq">
+                  <h2>Preguntas Frecuentes</h2>
+      
+                  <div class="faq-item mt-7">
+                    <h3 class="h4">¿En qué consiste la Cobranza Judicial?</h3>
+                    <p>Es un juicio ejecutivo que busca recuperar deudas impagas a través de tribunales. Se presenta una demanda, y si el deudor no paga, el juez puede autorizar el embargo y remate de bienes para saldar la deuda.</p>
+                  </div>
+      
+                  <div class="faq-item mt-7">
+                    <h3 class="h4">¿Cuánto demora la Cobranza Judicial?</h3>
+                    <p>Un juicio de cobranza judicial suele tardar entre 3 y 6 meses, dependiendo del domicilio del deudor, sus defensas legales y los bienes embargables.</p>
+                  </div>
+      
+                  <div class="faq-item mt-7">
+                    <h3 class="h4">¿Qué requisitos se deben cumplir para iniciar una cobranza judicial?</h3>
+                    <p>Debes contar con un título ejecutivo válido (factura, pagaré o cheque) no mayor a 1 año desde su vencimiento. Además, se debe firmar un mandato para que un abogado inicie el proceso legal en tu representación.</p>
+                  </div>
+      
+                  <div class="faq-item mt-7">
+                    <h3 class="h4">¿Se debe contar con un abogado para iniciar una cobranza judicial?</h3>
+                    <p>Sí. La ley chilena exige que todo juicio de cobranza sea iniciado por un abogado habilitado, quien gestionará cada etapa del proceso judicial.</p>
+                  </div>
+      
+                  <div class="faq-item mt-7">
+                    <h3 class="h4">¿Puede el deudor oponerse o defenderse de una cobranza judicial?</h3>
+                    <p>El deudor puede presentar defensas, pero debe hacerlo con abogado. Las opciones de defensa se limitan a la validez del título ejecutivo y a lo pactado en el contrato con el acreedor.</p>
+                  </div>
+      
+                  <div class="faq-item mt-7">
+                    <h3 class="h4">¿Cuáles son los gastos de una cobranza judicial?</h3>
+                    <p>Los principales gastos incluyen notificaciones ($200.000 aprox.), embargos, remates y certificados legales. Estos costos varían según el caso y los bienes involucrados.</p>
+                  </div>
+      
+                  <div class="faq-item mt-7">
+                    <h3 class="h4">¿Quién se hace responsable de los gastos de una cobranza judicial?</h3>
+                    <p>El acreedor paga los gastos judiciales, que luego se suman a la deuda. Si el juicio tiene éxito, el deudor debe pagar la deuda, intereses y todos los costos del proceso.</p>
+                  </div>
+      
+                  <div class="faq-item mt-7">
+                    <h3 class="h4">¿Quiénes son los receptores judiciales y cuál es su función?</h3>
+                    <p>Son ministros de fe que realizan diligencias como notificaciones y embargos. En Legalbox nos encargamos de coordinarlos y acompañarte durante todo el proceso de cobranza judicial.</p>
+                  </div>
+      
+                </section>
+              </div>
+
+              <div class="border-top pt-7 mt-7">
+                      <div class="mb-5">
+                        <h4>Sobre el autor</h4>
+                      </div>
+            
+                      <!-- Media -->
+                      <div class="d-sm-flex">
+                        <div class="flex-shrink-0 mb-3 mb-sm-0">
+                          <img class="avatar avatar-xl avatar-circle" src="../assets/img/team/flavio-viterbo-crisosto-abogado.jpeg" alt="Abogado chileno de la Pontificia Universidad Católica especialista en cobranza judicial y extrajudicial, con más de 10 años de experiencia liderando procesos legales para empresas en todo Chile.">
+                        </div>
+            
+                        <div class="flex-grow-1 ms-sm-4">
+                          <!-- Media -->
+                          <div class="d-flex justify-content-between align-items-center mb-3">
+                            <h3 class="mb-0">
+                              <a class="text-dark" href="../reunion">Flavio Viterbo Crisosto</a>
+                            </h3>
+                            <a type="button" class="btn btn-outline-primary btn-sm" href="../reunion">
+                               Agendar reunión
+                            </a>
+                          </div>
+                          <!-- End Media -->
+            
+                          <p>Abogado chileno de la Pontificia Universidad Católica especialista en cobranza judicial y extrajudicial, con más de 10 años de experiencia liderando procesos legales para empresas en todo Chile.</p>
+                        </div>
+                      </div>
+                      <!-- End Media -->
+              </div>
+
            </div>
       </div>
   
@@ -621,91 +765,90 @@
     </div>
   </div>
 
-
-   <!-- Contact Form -->
-   <div class="bg-soft-primary" id="contacto">
-    <div class="container content-space-t-3 content-space-t-lg-5 content-space-b-2">
-      <div class="row">
-        <div class="col-lg-6 mb-9 mb-lg-0">
-          <!-- Heading -->
-          <div class="mb-5">
-            <span class="text-dark">
-              <small class="badge bg-success text-dark rounded-pill mb-3">40% dcto. en tu primera cobranza</small>
-          </span>
-            <h1>Cobra con abogados y tecnología</h1>
-            <p>¿Cómo cobrar una factura? ¿Cuales son los plazos y etapas? Asesórate y recupera tu dinero con Legalbox.</p>
-          </div>
-    
-          <ul class="list-checked list-checked-primary mb-5">
-            <li class="list-checked-item">Cobranza integral</li>
-            <li class="list-checked-item">Publicación en Dicom</li>
-            <li class="list-checked-item">Juicios ejecutivos de cobranza</li>
-          </ul>
-          <!-- End Heading -->
-    
-          <!-- Leaflet -->
-          <div class="overflow-hidden">
-            <figure>
-    
-              <p>O escríbenos directo:</p>
-      
-              <div class="row">
-                <div class="col-sm-6">
-                  <h5 class="mb-1">Email:</h5>
-                  <p> <a href="mailto:pedro@legalbox.cl"><u>pedro@legalbox.cl</u></a></p>
-                </div>
-                <!-- End Col -->
-      
-                <div class="col-sm-6">
-                  <h5 class="mb-1">WhatsApp:</h5>
-                  <p><a href="https://wa.me/56987439874"><u>56987439874</u></a></p>
-                </div>
-                <!-- End Col -->
-      
-              </div>
-      
-              <figcaption class="blockquote-footer">
-                <div class="d-flex align-items-center">
-                  <div class="flex-shrink-0">
-                    <img class="avatar avatar-lg avatar-circle" src="../assets/img//brand/pv-bw.jpeg" alt="Director comercial Legalbox - Pedro Viterbo">
-                  </div>
-      
-                  <div class="flex-grow-1 ms-3">
-                    Pedro Viterbo
-                    <span class="blockquote-footer-source">Directo comercial Legalbox</span>
-                  </div>
-                </div>
-              </figcaption>
-            </figure>
-          </div>
-          <!-- End Leaflet -->
-    
-          
-          <!-- End Row -->
+  <!-- Contact Form -->
+  <div class="bg-light" id="contacto">
+  <div class="container content-space-t-3 content-space-t-lg-5 content-space-b-2">
+    <div class="row">
+      <div class="col-lg-6 mb-9 mb-lg-0">
+        <!-- Heading -->
+        <div class="mb-5">
+          <span class="text-dark">
+            <small class="badge bg-success text-dark rounded-pill mb-3">40% dcto. en tu primera cobranza</small>
+        </span>
+          <h1>Cobra con abogados y tecnología</h1>
+          <p>¿Cómo cobrar una factura? ¿Cuales son los plazos y etapas? Asesórate y recupera tu dinero con Legalbox.</p>
         </div>
-        <!-- End Col -->
+  
+        <ul class="list-checked list-checked-primary mb-5">
+          <li class="list-checked-item">Cobranza integral</li>
+          <li class="list-checked-item">Publicación en Dicom</li>
+          <li class="list-checked-item">Juicios ejecutivos de cobranza</li>
+        </ul>
+        <!-- End Heading -->
+  
+        <!-- Leaflet -->
+        <div class="overflow-hidden">
+          <figure>
+  
+            <p>O escríbenos directo:</p>
     
-        <div class="col-lg-6">
-          <div class="ps-lg-5">
-            <!-- Card -->
-            <div class="card card-bordered">
-              
-              <script src="https://js.hsforms.net/forms/embed/7460005.js" defer></script>
-
-              
-              <div class="hs-form-frame" data-region="na1" data-form-id="dbaf9dfe-4afb-4e92-b57b-d706085401be" data-portal-id="7460005">
-                
+            <div class="row">
+              <div class="col-sm-6">
+                <h5 class="mb-1">Email:</h5>
+                <p> <a href="mailto:pedro@legalbox.cl"><u>pedro@legalbox.cl</u></a></p>
               </div>
+              <!-- End Col -->
+    
+              <div class="col-sm-6">
+                <h5 class="mb-1">WhatsApp:</h5>
+                <p><a href="https://wa.me/56987439874"><u>56987439874</u></a></p>
+              </div>
+              <!-- End Col -->
+    
             </div>
-            <!-- End Card -->
-          </div>
+    
+            <figcaption class="blockquote-footer">
+              <div class="d-flex align-items-center">
+                <div class="flex-shrink-0">
+                  <img class="avatar avatar-lg avatar-circle" src="../assets/img//brand/pv-bw.jpeg" alt="Director comercial Legalbox - Pedro Viterbo">
+                </div>
+    
+                <div class="flex-grow-1 ms-3">
+                  Pedro Viterbo
+                  <span class="blockquote-footer-source">Directo comercial Legalbox</span>
+                </div>
+              </div>
+            </figcaption>
+          </figure>
         </div>
-        <!-- End Col -->
+        <!-- End Leaflet -->
+  
+        
+        <!-- End Row -->
       </div>
-      <!-- End Row -->
+      <!-- End Col -->
+  
+      <div class="col-lg-6">
+        <div class="ps-lg-5">
+          <!-- Card -->
+          <div class="card card-bordered">
+            
+            <script src="https://js.hsforms.net/forms/embed/7460005.js" defer></script>
+
+            
+            <div class="hs-form-frame" data-region="na1" data-form-id="dbaf9dfe-4afb-4e92-b57b-d706085401be" data-portal-id="7460005">
+              
+            </div>
+          </div>
+          <!-- End Card -->
+        </div>
+      </div>
+      <!-- End Col -->
     </div>
-   </div>
-<!-- End Contact Form -->
+    <!-- End Row -->
+  </div>
+  </div>
+  <!-- End Contact Form -->
 
 </main>
 
