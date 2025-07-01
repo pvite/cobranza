@@ -3177,13 +3177,13 @@ textarea.form-control-lg {
     --bs-btn-color: #fff;
     --bs-btn-bg: #377dff;
     --bs-btn-border-color: #377dff;
-    --bs-btn-hover-color: #374151;
-    --bs-btn-hover-bg: #c4f4c4;
-    --bs-btn-hover-border-color: #a2d1f1;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #2f6ad9;
+    --bs-btn-hover-border-color: #2c64cc;
     --bs-btn-focus-shadow-rgb: 85,145,255;
     --bs-btn-active-color: #fff;
-    --bs-btn-active-bg: #377dff;
-    --bs-btn-active-border-color: #377dff;
+    --bs-btn-active-bg: #2c64cc;
+    --bs-btn-active-border-color: #295ebf;
     --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
     --bs-btn-disabled-color: #fff;
     --bs-btn-disabled-bg: #377dff;
@@ -18515,7 +18515,7 @@ input[type=number] {
 }
 
 .btn-check:focus+.btn-primary,.btn-primary:focus,.btn-primary:hover {
-    box-shadow: 0 4px 11px rgb(196,244,196,1)
+    box-shadow: 0 4px 11px rgba(55,125,255,.35)
 }
 
 .btn-check:focus+.btn-secondary,.btn-secondary:focus,.btn-secondary:hover {
