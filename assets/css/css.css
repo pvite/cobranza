@@ -103,7 +103,7 @@ hr {
     font-family: var(--bs-heading-font-family);
     margin-top: 0;
     margin-bottom: .5rem;
-    font-weight: 600;
+    font-weight: 400;
     line-height: 1.2;
     color: #1c2140
 }
