@@ -30,7 +30,7 @@
     --bs-info: #09a5be;
     --bs-warning: #f5ca99;
     --bs-danger: #ed4c78;
-    --bs-light: #F9FAFC;
+    --bs-light: 247,250,255;
     --bs-dark: #21325b;
     --bs-primary-rgb: 55,125,255;
     --bs-secondary-rgb: 113,134,157;
