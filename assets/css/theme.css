@@ -28539,13 +28539,3 @@ a:hover .text-inherit {
     font-style: normal;
   }
   
-  
-#sib-container {
-  font-family: inherit !important;
-}
-
-#sib-container input, 
-#sib-container textarea, 
-#sib-container button {
-  font-family: inherit !important;
-}
